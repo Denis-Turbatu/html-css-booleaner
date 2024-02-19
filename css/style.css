@@ -9,12 +9,15 @@
      background-size: 30%;
      background-color: rgb(20, 173, 224);
      height: 15vh;
+     position: relative;
  }
 
  header>#logo-head {
      height: 15vh;
      width: 30vh;
-     margin-top: 1.5%;
+     position: absolute;
+     top: 25%;
+     left: 2%;
  }
 
  /* /HEADER */
@@ -25,11 +28,16 @@
  }
 
  h1 {
-     font-size: 3rem;
+     font-size: 2.7rem;
  }
 
  .journal-head > h1, p, h6, #date-subtitle {
      margin: 5px;
+ }
+
+ .journal-landscape > h6 {
+     font-weight: 100;
+     font-size: 14px;
  }
 
  .journal-head > p, #date-subtitle {
@@ -39,6 +47,11 @@
  .journal-head > p > span {
      color: rgb(20, 173, 224);
  }
+
+  .journal-landscape {
+      margin-top: 20px;
+  }
+
 .journal-description{
     margin-top: 25px;
 }
